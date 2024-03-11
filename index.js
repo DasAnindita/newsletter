@@ -1,18 +1,4 @@
-const Email=getElementbyClass("input");
-const form= getElementbyID("form");
-const errorelement=getElementbyID("error");
+document.getElementById("form").addEventListener("submit", function(event) {
+    event.preventDefault();
 
-//prevent page from submiting by default
-
-form.addEventListener('submit',(e)=>{
-    let msg=[];
-    if(msg==""||msg==null){
-        msg.push("fill in email");
-    }
-    e.PreventDefault();
-
-    if(msg.length>0){
-        e.PreventDefault();
-        errorelement.innerText= msg.join(',');
-    }
-})
+    var email = document.getElementById("emailInput").value;
