@@ -1,0 +1,93 @@
+body{
+    
+   
+   /* font-family: 'Epilogue', sans-serif;
+    font-family: 'Public Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;*/
+    border-radius: 20px;
+    background-color: hsl(234, 29%, 20%);
+
+}
+
+.text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 0px 20px;
+    position:relative;
+    top: -20px;
+}
+.text-in-text{
+    color:hsl(235, 18%, 26%);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding: 0 6px;
+}
+
+h3{
+    font-size: 35px;
+    padding: 0px 20px;
+    position:relative;
+    top: -10px;
+}
+form{
+    border-radius: 15px;
+    width: 670px;
+    height: 399px;
+    background-color:white;
+    padding: 50px;
+    margin-left: 250px;
+    margin-top: 150px;
+    position:relative;
+    top: -20px;
+    
+}
+.in{
+    font-size: 12px;
+    font-weight: bold;
+    color: hsl(234, 29%, 20%);
+    font-family: 'Public Sans', sans-serif;
+    padding: 0px 28px;
+    margin-top: 10px;
+    position:relative;
+    top: -20px;
+}
+
+.input{
+    width:300px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px grey solid;
+    margin-left:26px;
+    position:relative;
+    top: -20px;
+
+}
+
+.btn{
+    width:305px;
+    height: 45px;
+    border-radius: 5px;
+    margin-left:26px;
+    background-color:hsl(4, 100%, 67%);
+    color:white;
+    font-family: 'Public Sans', sans-serif;
+    margin-top: 5px;
+    border: 1px solid;
+    position:relative;
+    top: -20px;
+}
+
+.btn:hover{
+    background-color: hsl(234, 29%, 20%);
+}
+
+.main{
+    margin-left: 390px;
+    position:absolute;
+    top:20px;
+    height: 470px;
+    border-radius:5px;
+    
+
+}
